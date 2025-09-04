@@ -1,16 +1,30 @@
-# teste
+# 📱 LabFlutterDM - Gerenciamento de Estado com Provider
 
-A new Flutter project.
+**Desenvolvido por:** 
+- **Pedro Henrique Dias** 
+- **Mohamed Ali**
+- **Antony Yassen**
 
-## Getting Started
+---
 
-This project is a starting point for a Flutter application.
+## 🎯 Sobre o Projeto
 
-A few resources to get you started if this is your first Flutter project:
+Aplicativo de lista de tarefas desenvolvido em Flutter para o Grupo 6, demonstrando o uso de **gerenciamento de estado com Provider** como alternativa eficiente ao setState tradicional.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## 🚀 Funcionalidades
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- ✅ Adicionar novas tarefas
+- ✅ Listar tarefas em tempo real  
+- ✅ Remover tarefas com confirmação
+- ✅ Feedback visual com SnackBar
+- ✅ Interface responsiva e intuitiva
+
+## 🛠️ Tecnologias Utilizadas
+
+- **Flutter** 3.19.0
+- **Dart** 3.3.0
+- **Provider** 6.0.5
+- **Material Design**
+
+## 📦 Estrutura do Projeto
+
