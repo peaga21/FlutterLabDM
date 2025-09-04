@@ -1,0 +1,24 @@
+REFLEXÃO SOBRE GERENCIAMENTO DE ESTADO - GRUPO 6
+
+1. POR QUE ESCOLHEMOS O PROVIDER?
+   - Resposta: Escolhemos o Provider por ser uma solução simples e eficiente para gerenciamento de estado, recomendada pela documentação do Flutter. Ele permite compartilhar dados entre widgets de forma fácil e performática.
+
+2. QUAL A VANTAGEM SOBRE USAR APENAS SETSTATE?
+   - Resposta: Ao contrário do setState que redesenha toda a tela, o Provider usa o padrão Observer e atualiza apenas os widgets que realmente precisam ser reconstruídos, melhorando muito o desempenho.
+
+3. COMO O PROVIDER FUNCIONA POR BAIXO DOS PANOS?
+   - Resposta: O Provider funciona como um "fornecedor" de dados. Nosso TaskList estende ChangeNotifier e quando chamamos notifyListeners(), ele avisa a todos os Consumers que o estado mudou e eles se reconstroem.
+
+4. QUE OUTRAS ALTERNATIVAS EXISTEM E POR QUE NÃO USAMOS?
+   - Resposta: Existem BLoC (mais complexo), GetX (mais leve) e Riverpod (evolução do Provider). Escolhemos Provider por ser a opção mais adequada para nosso nível de conhecimento e para o tamanho do projeto.
+
+5. QUAL FOI A MAIOR DIFICULDADE?
+   - Resposta: A maior dificuldade foi entender o conceito de injeção de dependência e como os Consumers se comunicam com o Provider. Também tivemos desafios com as importações entre pastas.
+
+6. O QUE APRENDEMOS SOBRE GERENCIAMENTO DE ESTADO?
+   - Resposta: Aprendemos que gerenciamento de estado é crucial para apps Flutter, que existem várias abordagens e que a escolha depende do tamanho e complexidade do projeto.
+
+PRÓXIMOS PASSOS:
+- Gostaríamos de explorar Riverpod como evolução natural do Provider
+- Queremos implementar persistência de dados com shared_preferences
+- Interesse em aprender sobre gerenciamento de estado global em apps maiores
